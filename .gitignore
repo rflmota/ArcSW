@@ -11,6 +11,7 @@
 *.ilk
 *.map
 *.exp
+*.lst
 
 # Precompiled Headers
 *.gch
@@ -36,6 +37,9 @@
 *.x86_64
 *.hex
 
+# Build directory
+build/
+
 # Debug files
 *.dSYM/
 *.su
@@ -50,3 +54,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Workspaces
+.vscode/
+
+# OS artifacts
+.DS_store
